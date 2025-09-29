@@ -1,8 +1,8 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Godot**
 
-## Project: **X**
+## Project: **Creating a strategy game where there is many ways to beat the game**
 
 ---
 
@@ -13,7 +13,7 @@
 * Text
 
 
-<!-- 
+<!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
