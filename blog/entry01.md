@@ -6,7 +6,7 @@ Coming into my 3rd year of this course, researching a tool with more freedom tha
 ![](Godot1.png)
 I based my first [learning log](../tool/learning-log.md) but I didn't stop researching there. I had another tool called gDevelop which also caught my eye. This tool had a website playground I can tinker around with, without having to download an app like godot. Instantly I thought I want to switch to this tool because how more beginner friendly it was compared to godot. Although it was really similar to godot It had a sections that godot doesn't have (from when I was tinkering). There is a file where you can put your actions on a sprite and applying sprite sheets was really easy to implement.
 ![](Gdevelop1.png) 
-You can change how fast or slow you want the animation and there is a preview button next to it.
+You can change how fast or slow you want the animation and there is a preview button next to it. With the tool In mind I want to make a game where the choices the player makes impact what they encounter.
 ### Engineering Design Process
 I am at the first stage of EDP (Engineering Design Process). The stage is defining the problem. The problem is that many people don't know that sometimes their actions can led to consequences they never thought can happen. With this game, I would like to create a game that seems friendly at first since you can do anything you want. Then suddenly you realize the actions you did at the beginning either give you a sigh of relief or you feel guilty you did those things. 
 ### Skills 
