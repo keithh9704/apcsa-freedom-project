@@ -13,7 +13,7 @@
     * When creating a character for example It needs a collsion and that collsion needs a shape.
     * to create that shape on the inspector on the right side of the screen click on the child "node" collsion and click empty option next to shape so you can select any shape available to you.
 * You can also click the eye ball so that "node" would be invisible or visible.
-    ![alt text](image.png)
+![alt text](visible.png)
 * f5 runs the project.
 * f6 runs the current scene.
 * you could create a folder on the bottom left to store entities, sprite movements and etc. This is for organization.
