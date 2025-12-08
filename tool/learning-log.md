@@ -36,6 +36,23 @@ At the moment this is just the animation of the sprite not moving.
 * When you create a sprite that the player stands on, you specficly have to click on "Tiled Sprite" and add your sprite from there. 
 * Then you would set the tiled sprite to whatever the grid is on the whole screen. On default, it's 32 by 32 but you could change it to 16 by 16 to make it more manageable.
 * When you try to expand a tiled sprite at every grid it duplicates the sprite while a regular sprite just becomes bigger. 
+### 12/7/25 Used [Youtube tutorial again since there are more concept to be learnt](https://www.youtube.com/watch?v=XxeD_2nTyHI&t=139s)
+* In addtion of making a titled sprite it doesn't right away allows the player sprite to stand on it. You have to add the behavior platform so the user can stand on it. 
+![](../Images/GDevelopBehavior.png)
+* you can make the platform a jumpthough platform where you can go through the platform and land on it or a ladder which the player sprite can climb on.
+![](../Images/GDevelopBehavior1.png)
+* To make the sprite move you would need to create a behavior called PlatformerObject and you can configure the walkspeed, jumpspeed, falling speed and if you can grab on to ledges
+![](../Images/GDevelopMovement.png)
+* When creating a multiple platforms for the player sprite to jump to you need the camera to follow the player so the user knows where it's going.
+    * You would need to add SmoothPlatformerCamera
+    * You can configure the speed on the camera catching up to the player sprite. You can make it really fast so it's updated in real time or make it really slow (for some reason).
+* You can also create moving platforms by making a seperate idenical sprite image or different for this sprite.
+    * You would need to select the RectangleMovement
+    * Making the height to 0 making it an actually moving platform.
+    * Increasing the height higher to 0 makes the sprite moves up and left or right.
+    * You can increase or decrease the amount of time for the sprite to change directions as well.
+
+![](../Images/GDevelopMovingPlatform.png)
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
