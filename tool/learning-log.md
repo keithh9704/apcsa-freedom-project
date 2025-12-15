@@ -53,6 +53,25 @@ At the moment this is just the animation of the sprite not moving.
     * You can increase or decrease the amount of time for the sprite to change directions as well.
 
 ![](../Images/GDevelopMovingPlatform.png)
+### 12/14/25 Used [Youtube tutorial again since I didn't touch on everything the person showed](https://www.youtube.com/watch?v=XxeD_2nTyHI&t=139s)
+* To create a pick up sprite that can be collected after the player sprite goes over it, first you create a regular sprite with animations seen above.
+    * Then In events tab on the top, you create an condition called collision and on the top you put the player sprite name and on the bottom you put the pick up sprite name. 
+    * Lastly on the action you create an action called delete and select the pick up sprite.
+    * When making pick up sprite you can select the sprite, hold ctrl and drag you mouse to a spot you want the pick up sprite to be to make a dupe.
+* To create an enemy, it's the same thing as the player sprite but you would turn on default contorls and not add a smooth camera so it doesn't conflict with the camera on the player sprite.
+![](../Images/GDevelop-remove-default.png)
+* Then inside of the sprite you want to add a point located on the bottom left. This point will be used to detect if the sprite hit something.
+    * You would click add a point and put the point close to the bottom of the sprite so when we create a condition to change direction It will be more accurate.(for reference look at blue point)
+![](../Images/GDevelopActionPoint.png) 
+* On the events tab, We add a condition if enemy sprite is horizontally flipped then the action is simulate left key press.
+    * Make sure simulate left key press has movement, platformer behavior, platformer controls as grey text directly below.
+* Then we make the same condition but we reverse it by right clicking on the horizontally flipped and clicking invert condition so the action will be the opposite.
+![](../Images/GDevelopReverseCondition.png)
+* Then for the action it would be simulate right key press instead of left
+* In both of these conditions, we would make another condition called point inside object and we would select the platform block (preferably the block the enemy is going to be on) then check if the point we created earlier is touching the platform block.
+![](../Images/GDevelopPointChecker.png)
+* For the condition that if the enemy sprite is horizonally flipped you would add an action that when it checks if the point, on the enemy sprite, is touching the platform block to not horizonally flip it and for the other condition if the enemy is not horizonally flipped you add an action that the enemy sprite gets horizonally flipped.
+![](../Images/GDevelopEnemyEvents.png) 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
