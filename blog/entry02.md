@@ -25,6 +25,7 @@ Instead of just looking at the youtube video I was using to learn the basics of 
 While making conditions to make the enemy move back and forth in a set distance, I realized that I could do this on my own and double check with the video to see If I got it right since it was simple if statement logic like I learn in java and javascript. There were some things like calling the point and picking the correct move right action which I didn't know how to do so I used the video to help so I can adjust to how conditions works in this tool.
 ### Next Steps
 As I said earlier, Christmas break is approaching and I am excited to continue learning this tool because It's very beginner friendly and I have more freedom on what I want to do. Before I ahead of myself, I want to finish with basics so I know what are the limits are to this tool and start learning all the fun stuff I can do with this tool.    
+
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
