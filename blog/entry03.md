@@ -8,6 +8,7 @@ After the Christmas break, I worked on my tool and caught up on the general basi
 This is how to set the animation to the death animation which is similar to regular coding by adding an or in the condition. Void.Y() is a sprite that is created to set a boundary of how far out of bounds the player sprite can reach.
 An example is:
 ![](../Images/GDevelopVoid.png)
+
 The red bar is the so called "void"
 
 
