@@ -14,6 +14,7 @@ The red bar is the so called "void"
 
  To make use of this change of animation we have to make it disable player movement and reset the scene.
 ![](../Images/GDevelopWaitTimer.png)
+
 The first action goes into behavior of the player sprite (which in this case "Mario") and disables the player movement then the 2nd action waits a few seconds because I want the player to see the death animation then the 3rd action the scene resets by setting the fixed scene towards the current scene. Trigger once is also added in the conditions side to prevent an infinite loop that could potentially happen and break the game.
 
 
