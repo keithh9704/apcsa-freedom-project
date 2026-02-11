@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: GDevelop
+## Product: 2D game where player's decision affects the game 
 
 ---
 
