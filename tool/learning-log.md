@@ -96,7 +96,16 @@ At the moment this is just the animation of the sprite not moving.
 * Mario is the player sprite name and void is the sprite that checks if the player pasted the sprite.
 * The numbers can be configured to my liking.
 ### 3/2/26
-* 
+Used [Video](https://www.youtube.com/watch?v=-z4Kl53_AFo)
+* To import a sprite sheet you go to add animation and clicked create with piskel. Then look at the right and click import an image and select your png that has the sprite sheet. 
+Then configuring with the frame size so the yellow lines are equally placed for each sprite animation like so. 
+![](../Images/GDevelopSpriteSheet.png)   
+Then import this and save this on the stop right. 
+* You can see the animation replay on the top right.
+Used [Video](https://www.youtube.com/watch?v=XxeD_2nTyHI&t=139s)
+* Then in behavior search up animations and click platformer character animator.
+![](../Images/GDevelopCharacterAnimations.png)
+* You could change the names to the animation names to what you named it in the animation tab for each animation or you change your animation name from your sprite to the same as the animation name in this behavior.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
