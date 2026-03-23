@@ -95,7 +95,7 @@ At the moment this is just the animation of the sprite not moving.
 ![](../Images/GDevelopCamBoundary.png)
 * Mario is the player sprite name and void is the sprite that checks if the player pasted the sprite.
 * The numbers can be configured to my liking.
-### 3/2/26
+### 3/23/26
 Used [Video](https://www.youtube.com/watch?v=-z4Kl53_AFo)
 * To import a sprite sheet you go to add animation and clicked create with piskel. Then look at the right and click import an image and select your png that has the sprite sheet. 
 Then configuring with the frame size so the yellow lines are equally placed for each sprite animation like so. 
