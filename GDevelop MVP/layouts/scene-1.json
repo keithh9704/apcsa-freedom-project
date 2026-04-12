@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4481978045410364,
+    "zoomFactor": 0.6455105703311492,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -37,8 +37,8 @@
       "layer": "",
       "name": "GrassBlock",
       "persistentUuid": "f827c693-db4a-4805-9dd4-d46849f35301",
-      "width": 323,
-      "x": -27,
+      "width": 320,
+      "x": 0,
       "y": 272,
       "zOrder": 1,
       "numberProperties": [],
@@ -54,27 +54,10 @@
       "layer": "",
       "name": "GrassBlock",
       "persistentUuid": "415a3126-b7bf-4e78-893f-1de759825580",
-      "width": 304,
+      "width": 317,
       "x": 880,
       "y": 112,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 48,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Star",
-      "persistentUuid": "fba7e242-e8a8-451b-b918-346baa88bf06",
-      "width": 32,
-      "x": 192,
-      "y": 208,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -272,29 +255,12 @@
       "height": 81,
       "keepRatio": true,
       "layer": "",
-      "name": "Good_Portal",
+      "name": "GoodPortal",
       "persistentUuid": "2c0fe991-3560-4199-bae5-379fa1d8f292",
       "width": 64,
       "x": 3216,
-      "y": -304,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bad_Portal",
-      "persistentUuid": "32c042eb-d57e-490f-850d-3e85556782ea",
-      "width": 64,
-      "x": 3216,
       "y": 0,
-      "zOrder": 16,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -414,6 +380,40 @@
       "x": 1904,
       "y": -48,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BadPortal",
+      "persistentUuid": "5cf4a241-972f-4825-b364-ec9753980773",
+      "width": 68,
+      "x": 3212,
+      "y": -305,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 56,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Movement",
+      "persistentUuid": "62f5a61b-3f46-4011-b948-31762740eb12",
+      "width": 316,
+      "x": 4,
+      "y": 144,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -710,18 +710,18 @@
           "Flippable": "Flippable"
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "ignoreDefaultControls": false,
           "gravity": 1000,
           "jumpSpeed": 700,
           "jumpSustainTime": 0.2,
           "maxFallingSpeed": 650,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
-          "ignoreDefaultControls": false,
           "ladderClimbingSpeed": 150,
           "maxSpeed": 250,
           "slopeMaxAngle": 60,
@@ -784,6 +784,7 @@
           "IsCalledManually": false
         },
         {
+          "isFolded": true,
           "name": "SmoothPlatformerCamera",
           "type": "SmoothCamera::SmoothPlatformerCamera",
           "PlatformerCharacter": "PlatformerObject",
@@ -1568,7 +1569,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Good_Portal",
+      "name": "GoodPortal",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1581,72 +1582,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "portal.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 68,
-                        "y": 0
-                      },
-                      {
-                        "x": 68,
-                        "y": 145
-                      },
-                      {
-                        "x": 0,
-                        "y": 145
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Bad_Portal",
-      "persistentUuid": "35fcb7e9-0195-4abd-b560-7f2ad710447d",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Portal",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "portal.png",
+                  "image": "Portal",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1745,6 +1686,88 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BadPortal",
+      "persistentUuid": "d97ed382-87e2-4c7c-a423-1ec1480e6586",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Portal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Portal",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 145
+                      },
+                      {
+                        "x": 0,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+      "name": "Movement",
+      "persistentUuid": "a36ac6b9-f734-4df5-aa1e-d529f5983a5a",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Use arrow keys to move.\nPress space bar to jump.",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png",
+        "align": "center",
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1752,6 +1775,9 @@
     "children": [
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "Movement"
       },
       {
         "objectName": "Void"
@@ -1769,13 +1795,13 @@
         "objectName": "Star"
       },
       {
-        "objectName": "Good_Portal"
+        "objectName": "GoodPortal"
       },
       {
         "objectName": "Directions"
       },
       {
-        "objectName": "Bad_Portal"
+        "objectName": "BadPortal"
       },
       {
         "objectName": "YES"
@@ -2090,7 +2116,7 @@
           },
           "parameters": [
             "Player",
-            "Good_Portal",
+            "GoodPortal",
             "",
             "",
             ""
@@ -2119,7 +2145,7 @@
           },
           "parameters": [
             "Player",
-            "Bad_Portal",
+            "BadPortal",
             "",
             "",
             ""
@@ -2133,7 +2159,7 @@
           },
           "parameters": [
             "",
-            "\"Scene 2\"",
+            "\"Scene 3\"",
             ""
           ]
         }

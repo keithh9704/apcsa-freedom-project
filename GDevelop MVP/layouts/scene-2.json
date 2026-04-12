@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4481978045410364,
+    "zoomFactor": 0.5117784035210214,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -38,111 +38,9 @@
       "name": "GrassBlock",
       "persistentUuid": "f827c693-db4a-4805-9dd4-d46849f35301",
       "width": 323,
-      "x": -27,
+      "x": 0,
       "y": 272,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock",
-      "persistentUuid": "415a3126-b7bf-4e78-893f-1de759825580",
-      "width": 304,
-      "x": 880,
-      "y": 112,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 48,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Star",
-      "persistentUuid": "fba7e242-e8a8-451b-b918-346baa88bf06",
-      "width": 32,
-      "x": 192,
-      "y": 208,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock2",
-      "persistentUuid": "766f45a6-e6ce-421e-91f2-c8d28e2a310e",
-      "width": 176,
-      "x": 432,
-      "y": 224,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock2",
-      "persistentUuid": "0544ea9b-37a2-4307-bb63-fe8e5e3be3ea",
-      "width": 80,
-      "x": 608,
-      "y": 208,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock2",
-      "persistentUuid": "67f7df9f-347f-4a8b-b80b-272dc358d69f",
-      "width": 80,
-      "x": 352,
-      "y": 208,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 48,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Mushroom",
-      "persistentUuid": "19bc6144-cf33-45a4-9d4d-f73c5a07f8ba",
-      "width": 48,
-      "x": 496,
-      "y": 176,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -184,150 +82,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock",
-      "persistentUuid": "09169c27-846d-4fad-acdd-aaa1529a9fce",
-      "width": 320,
-      "x": 1264,
-      "y": 16,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock",
-      "persistentUuid": "1f1b7752-47c1-4811-9629-97bde687b195",
-      "width": 448,
-      "x": 2304,
-      "y": 80,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock",
-      "persistentUuid": "8141f19b-c923-4a5c-9bb6-7b9dde029d31",
-      "width": 448,
-      "x": 2304,
-      "y": -224,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock",
-      "persistentUuid": "d5066614-e70f-4d47-9392-cb98df119945",
-      "width": 400,
-      "x": 2880,
-      "y": 80,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock",
-      "persistentUuid": "8fa8f69b-2fa7-44db-b2b2-1590374a259f",
-      "width": 398,
-      "x": 2880,
-      "y": -224,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 81,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Good_Portal",
-      "persistentUuid": "2c0fe991-3560-4199-bae5-379fa1d8f292",
-      "width": 64,
-      "x": 3216,
-      "y": -304,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bad_Portal",
-      "persistentUuid": "32c042eb-d57e-490f-850d-3e85556782ea",
-      "width": 64,
-      "x": 3216,
-      "y": 0,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
+      "height": 28,
       "keepRatio": true,
       "layer": "",
       "name": "Directions",
-      "persistentUuid": "b2f0fba2-9843-49a8-b503-45e6621fb415",
-      "width": 592,
-      "x": 1328,
-      "y": -144,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GrassBlock",
-      "persistentUuid": "729d31d0-ef0f-4afb-809a-6aa05fc27b4d",
-      "width": 400,
-      "x": 1584,
-      "y": 16,
+      "persistentUuid": "a1e740e8-5061-43f5-9160-ba48c83b0f00",
+      "width": 240,
+      "x": 32,
+      "y": 158,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -340,11 +102,11 @@
       "height": 80,
       "keepRatio": true,
       "layer": "",
-      "name": "GrassBlock",
-      "persistentUuid": "aa8207c6-80b3-4254-9fca-5f070abeb26c",
-      "width": 80,
-      "x": 2144,
-      "y": 64,
+      "name": "GrassBlock2",
+      "persistentUuid": "01af3ef3-921a-4169-ba92-ca3977d3a0e4",
+      "width": 398,
+      "x": 434,
+      "y": 224,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -357,28 +119,11 @@
       "height": 80,
       "keepRatio": true,
       "layer": "",
-      "name": "GrassBlock",
-      "persistentUuid": "ef1e84de-710c-465c-9748-aadb0f30baaf",
-      "width": 80,
-      "x": 2144,
-      "y": -160,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "YES",
-      "persistentUuid": "5b5a73ac-ee91-4429-8657-16b1a8cfaefc",
-      "width": 64,
-      "x": 2064,
-      "y": -144,
+      "name": "GrassBlock3",
+      "persistentUuid": "bc472faa-1dbb-4304-aea8-8304ad262129",
+      "width": 304,
+      "x": 880,
+      "y": 64,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -388,14 +133,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
+      "height": 28,
       "keepRatio": true,
       "layer": "",
-      "name": "NO",
-      "persistentUuid": "187b2946-f8d6-462c-b844-1af318e95955",
-      "width": 38,
-      "x": 2080,
-      "y": 96,
+      "name": "JumpDirections",
+      "persistentUuid": "1988e07a-381d-4783-bd1d-d674430a2f8b",
+      "width": 304,
+      "x": 832,
+      "y": 18,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -405,15 +150,115 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 48,
       "keepRatio": true,
       "layer": "",
       "name": "GrassBlock",
-      "persistentUuid": "1469eb7c-2b1f-4451-9f55-8c32696c954b",
-      "width": 80,
-      "x": 1904,
-      "y": -48,
-      "zOrder": 19,
+      "persistentUuid": "7aa2b840-0824-482b-a7f2-12962551aeca",
+      "width": 64,
+      "x": 1248,
+      "y": -64,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GrassBlock",
+      "persistentUuid": "9180d61c-eb9e-487c-9442-7031685711e8",
+      "width": 64,
+      "x": 1392,
+      "y": -128,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GrassBlock",
+      "persistentUuid": "5a56ba85-b2a0-429b-98b7-dd45e4fec032",
+      "width": 800,
+      "x": 1568,
+      "y": -208,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 39,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Answer",
+      "persistentUuid": "fa79eed4-5d93-4914-acb7-27846ca3b83a",
+      "width": 864,
+      "x": 1552,
+      "y": -332,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GrassBlock",
+      "persistentUuid": "bb71653a-b3a7-40c3-8136-e77f28b41663",
+      "width": 480,
+      "x": 2544,
+      "y": -208,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BeginningPortal",
+      "persistentUuid": "0b170ee5-e60f-4a14-966f-da4bdb3d3cd1",
+      "width": 0,
+      "x": 3152,
+      "y": -289,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BacktoScene1",
+      "persistentUuid": "28b9bab1-f792-431a-b086-c9618c20c18d",
+      "width": 0,
+      "x": 2928,
+      "y": -320,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -450,6 +295,22 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 100,
+          "RadiusY": 0,
+          "LoopDuration": 6,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": true,
@@ -462,7 +323,7 @@
           "Width": 100,
           "Height": 0,
           "Clockwise": true,
-          "HorizontalEdgeDuration": 4,
+          "HorizontalEdgeDuration": 6,
           "VerticalEdgeDuration": 1,
           "Left": 1.00000000000091,
           "Top": 1.00000000000091,
@@ -1568,7 +1429,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Good_Portal",
+      "name": "BeginningPortal",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1585,68 +1446,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "portal.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 68,
-                        "y": 0
-                      },
-                      {
-                        "x": 68,
-                        "y": 145
-                      },
-                      {
-                        "x": 0,
-                        "y": 145
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Bad_Portal",
-      "persistentUuid": "35fcb7e9-0195-4abd-b560-7f2ad710447d",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Portal",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "portal.png",
+                  "image": "Portal",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1695,7 +1495,47 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "When doing something nice, if it's unlikely, do you want this person to notice?",
+        "text": "Good Choice!",
+        "opacity": 255,
+        "scale": 1.5,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png",
+        "align": "center",
+        "verticalTextAlignment": "center"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "GrassBlock3",
+      "persistentUuid": "4784d0a8-56eb-4fe9-85d6-a549c3018e79",
+      "texture": "grass_block.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "platformType": "Jumpthru",
+          "canBeGrabbed": true,
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+      "name": "JumpDirections",
+      "persistentUuid": "5a014476-be94-470d-99dc-7880b0b14d4c",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Jump through the block!",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -1708,36 +1548,36 @@
     },
     {
       "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
-      "name": "YES",
-      "persistentUuid": "9da4f7e8-b38c-4220-81d8-e397ab269499",
+      "name": "Answer",
+      "persistentUuid": "5d164343-fe48-4d7e-a13a-cf365b6740b7",
       "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Yes",
+        "text": "This means you don't need a reward to knowledge your own greatness ",
         "opacity": 255,
-        "scale": 1.5,
+        "scale": 1,
         "fontSize": 20,
         "tint": "255;255;255",
         "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
         "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png",
-        "align": "left",
-        "verticalTextAlignment": "top"
+        "align": "center",
+        "verticalTextAlignment": "center"
       }
     },
     {
       "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
-      "name": "NO",
-      "persistentUuid": "1c614ba2-d91c-4182-a2c3-337d16a31f2e",
+      "name": "BacktoScene1",
+      "persistentUuid": "e4c82580-6efe-4c17-9d1b-e0cc76f879d5",
       "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "No",
+        "text": "Go here to go back to the beginning!",
         "opacity": 255,
-        "scale": 1.5,
+        "scale": 1,
         "fontSize": 20,
         "tint": "255;255;255",
         "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
@@ -1766,22 +1606,25 @@
         "objectName": "GrassBlock2"
       },
       {
+        "objectName": "GrassBlock3"
+      },
+      {
         "objectName": "Star"
       },
       {
-        "objectName": "Good_Portal"
+        "objectName": "BeginningPortal"
       },
       {
         "objectName": "Directions"
       },
       {
-        "objectName": "Bad_Portal"
+        "objectName": "JumpDirections"
       },
       {
-        "objectName": "YES"
+        "objectName": "Answer"
       },
       {
-        "objectName": "NO"
+        "objectName": "BacktoScene1"
       }
     ]
   },
@@ -2075,6 +1918,35 @@
           },
           "parameters": [
             "",
+            "\"Scene 2\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "BeginningPortal",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
             "\"Scene 1\"",
             ""
           ]
@@ -2157,6 +2029,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
     },
     {
       "name": "Flippable",

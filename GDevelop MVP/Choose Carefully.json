@@ -298,14 +298,6 @@
         "userAdded": false
       },
       {
-        "file": "portal.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "portal.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/8BitOperatorPlus8Regular_Edited.png",
         "kind": "image",
         "metadata": "",
@@ -327,6 +319,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/GDevelop/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134_8BitOperatorPlus8Regular_Edited.fnt",
           "name": "8BitOperatorPlus8Regular_Edited.fnt"
         }
+      },
+      {
+        "file": "assets/Portal2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -363,6 +363,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/speedrestrictions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
     }
   ],
   "externalLayouts": []
