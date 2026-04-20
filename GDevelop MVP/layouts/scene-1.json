@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -19,8 +19,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.6455105703311492,
+    "snap": false,
+    "zoomFactor": 0.584378441074095,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -69,7 +69,7 @@
       "height": 80,
       "keepRatio": true,
       "layer": "",
-      "name": "GrassBlock2",
+      "name": "MovingGrassBlock",
       "persistentUuid": "766f45a6-e6ce-421e-91f2-c8d28e2a310e",
       "width": 176,
       "x": 432,
@@ -86,7 +86,7 @@
       "height": 80,
       "keepRatio": true,
       "layer": "",
-      "name": "GrassBlock2",
+      "name": "MovingGrassBlock",
       "persistentUuid": "0544ea9b-37a2-4307-bb63-fe8e5e3be3ea",
       "width": 80,
       "x": 608,
@@ -103,7 +103,7 @@
       "height": 80,
       "keepRatio": true,
       "layer": "",
-      "name": "GrassBlock2",
+      "name": "MovingGrassBlock",
       "persistentUuid": "67f7df9f-347f-4a8b-b80b-272dc358d69f",
       "width": 80,
       "x": 352,
@@ -442,7 +442,7 @@
     {
       "assetStoreId": "",
       "height": 16,
-      "name": "GrassBlock2",
+      "name": "MovingGrassBlock",
       "texture": "grass_block.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
@@ -472,66 +472,6 @@
           "Easing": "easeInOutSine",
           "InitialPosition": "Top-left corner",
           "ToogleClockwise": false
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Star",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "star.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 14
-                      },
-                      {
-                        "x": 49,
-                        "y": 14
-                      },
-                      {
-                        "x": 49,
-                        "y": 61
-                      },
-                      {
-                        "x": 0,
-                        "y": 61
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1777,37 +1717,34 @@
         "objectName": "Player"
       },
       {
-        "objectName": "Movement"
+        "objectName": "Mushroom"
       },
       {
         "objectName": "Void"
       },
       {
-        "objectName": "Mushroom"
-      },
-      {
         "objectName": "GrassBlock"
       },
       {
-        "objectName": "GrassBlock2"
-      },
-      {
-        "objectName": "Star"
+        "objectName": "MovingGrassBlock"
       },
       {
         "objectName": "GoodPortal"
       },
       {
-        "objectName": "Directions"
+        "objectName": "BadPortal"
       },
       {
-        "objectName": "BadPortal"
+        "objectName": "Directions"
       },
       {
         "objectName": "YES"
       },
       {
         "objectName": "NO"
+      },
+      {
+        "objectName": "Movement"
       }
     ]
   },
@@ -1931,7 +1868,7 @@
                 "value": "CollisionPoint"
               },
               "parameters": [
-                "GrassBlock2",
+                "MovingGrassBlock",
                 "Mushroom.PointX(\"Turner\")",
                 "Mushroom.PointY(\"Turner\")"
               ]
@@ -1986,7 +1923,7 @@
                 "value": "CollisionPoint"
               },
               "parameters": [
-                "GrassBlock2",
+                "MovingGrassBlock",
                 "Mushroom.PointX(\"Turner\")",
                 "Mushroom.PointY(\"Turner\")"
               ]

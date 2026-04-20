@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.37971210019479495,
+    "zoomFactor": 0.49508400737489144,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -136,7 +136,7 @@
       "height": 16,
       "keepRatio": true,
       "layer": "",
-      "name": "GrassBlock2",
+      "name": "MovingGrassBlock",
       "persistentUuid": "3eac5f46-1ceb-4d6e-adf9-cc7b34e6a153",
       "width": 64,
       "x": 688,
@@ -170,7 +170,7 @@
       "height": 32,
       "keepRatio": true,
       "layer": "",
-      "name": "GrassBlock3",
+      "name": "JumpGrassBlock",
       "persistentUuid": "a10fc8d3-8c2c-428f-9cad-a8cd91e909a9",
       "width": 32,
       "x": 896,
@@ -320,7 +320,7 @@
     {
       "assetStoreId": "",
       "height": 16,
-      "name": "GrassBlock2",
+      "name": "MovingGrassBlock",
       "texture": "grass_block.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
@@ -1562,7 +1562,7 @@
     {
       "assetStoreId": "",
       "height": 16,
-      "name": "GrassBlock3",
+      "name": "JumpGrassBlock",
       "persistentUuid": "c800eb96-52ba-47f8-a120-78989519ae7b",
       "texture": "grass_block.png",
       "type": "TiledSpriteObject::TiledSprite",
@@ -1627,19 +1627,19 @@
         "objectName": "Player"
       },
       {
-        "objectName": "Void"
+        "objectName": "Mushroom"
       },
       {
-        "objectName": "Mushroom"
+        "objectName": "Void"
       },
       {
         "objectName": "GrassBlock"
       },
       {
-        "objectName": "GrassBlock2"
+        "objectName": "MovingGrassBlock"
       },
       {
-        "objectName": "GrassBlock3"
+        "objectName": "JumpGrassBlock"
       },
       {
         "objectName": "Star"
@@ -1781,7 +1781,7 @@
                 "value": "CollisionPoint"
               },
               "parameters": [
-                "GrassBlock2",
+                "MovingGrassBlock",
                 "Mushroom.PointX(\"Turner\")",
                 "Mushroom.PointY(\"Turner\")"
               ]
@@ -1836,7 +1836,7 @@
                 "value": "CollisionPoint"
               },
               "parameters": [
-                "GrassBlock2",
+                "MovingGrassBlock",
                 "Mushroom.PointX(\"Turner\")",
                 "Mushroom.PointY(\"Turner\")"
               ]
