@@ -1,16 +1,24 @@
 # Presentation Plan
 
 ## Hook
-* 
+* A claim that reminds the viewer of a choice they made and wonder what if you did this instead 
 
 ## Product
-* 
+* A URL showing my game and the different features
 
 ## Process
-* 
+* Show how learning the events were very easy and their is alot of common sense involved
+  * It's like a if condition, if this happens then this.
+  * The use of create with piskel to make sprite sheets 
+* Beyond MVP:
+  * Fixing how when choosing an answer one is easier then the other to choose from.
+  * Making so that one choice sets you back to the beginning and one choice lets you repeat the level.
 
 ## Conclusion
-* 
+* Yellkey or url to the project
+* Takeaways:
+  * When you think of an idea that seems too hard, you should try out the idea and if it is too hard then move on to the next idea you have but if u realize it's pretty easy then follow through with your plan. (explain that I thought making the different scene changing were going to be really hard to do but once I tried it, it was pretty easy)
+  * Plan how you would make the game instead of preparing how to show off your game to the audience. (Explain how that I had the general idea of my freedom project but not what are the choices going to be and the features of the game and how I rushed the features).
 
 <!-- EXAMPLE
 
