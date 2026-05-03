@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 265,
+    "build": 266,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -325,6 +325,110 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Portal",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../../../Downloads/craftpix-net-248468-free-werewolf-sprite-sheets-pixel-art/Red_Werewolf/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../../../../Downloads/craftpix-net-248468-free-werewolf-sprite-sheets-pixel-art/Red_Werewolf/Idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mushroom.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mushroom",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mushroom2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mushroom2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mushroom3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mushroom3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mushroom4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mushroom4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mushroom5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mushroom5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mushroom6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mushroom6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mushroom7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mushroom7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mushroom8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mushroom8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack4",
         "smoothed": true,
         "userAdded": false
       }

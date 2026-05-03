@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -19,8 +19,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.584378441074095,
+    "snap": true,
+    "zoomFactor": 0.667277399833,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -71,7 +71,7 @@
       "layer": "",
       "name": "MovingGrassBlock",
       "persistentUuid": "766f45a6-e6ce-421e-91f2-c8d28e2a310e",
-      "width": 176,
+      "width": 160,
       "x": 432,
       "y": 224,
       "zOrder": 5,
@@ -89,7 +89,7 @@
       "name": "MovingGrassBlock",
       "persistentUuid": "0544ea9b-37a2-4307-bb63-fe8e5e3be3ea",
       "width": 80,
-      "x": 608,
+      "x": 592,
       "y": 208,
       "zOrder": 6,
       "numberProperties": [],
@@ -117,14 +117,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 48,
+      "height": 80,
       "keepRatio": true,
       "layer": "",
-      "name": "Mushroom",
+      "name": "Wolf",
       "persistentUuid": "19bc6144-cf33-45a4-9d4d-f73c5a07f8ba",
-      "width": 48,
-      "x": 496,
-      "y": 176,
+      "width": 80,
+      "x": 543,
+      "y": 170,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -476,9 +476,9 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "Mushroom",
+      "name": "Wolf",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -509,51 +509,551 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "Idle",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "deadly_mushroom.png",
-                  "points": [
-                    {
-                      "name": "Turner",
-                      "x": 80,
-                      "y": 77
-                    }
-                  ],
+                  "image": "Mushroom",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 102,
+                    "y": 93
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 37,
-                    "y": 46.5
+                    "x": 26,
+                    "y": 127.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 24,
+                        "y": 99.5
                       },
                       {
-                        "x": 80,
-                        "y": 0
+                        "x": 61,
+                        "y": 71
                       },
                       {
-                        "x": 80,
-                        "y": 87
+                        "x": 101,
+                        "y": 72
                       },
                       {
-                        "x": 0,
-                        "y": 87
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mushroom2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mushroom3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mushroom4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mushroom5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mushroom6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mushroom7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mushroom8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 102,
+                    "y": 93
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 99.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 71
+                      },
+                      {
+                        "x": 101,
+                        "y": 72
+                      },
+                      {
+                        "x": 102,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 85,
+                        "y": 128
+                      },
+                      {
+                        "x": 26,
+                        "y": 128
                       }
                     ]
                   ]
@@ -1354,7 +1854,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.16,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -1717,7 +2217,7 @@
         "objectName": "Player"
       },
       {
-        "objectName": "Mushroom"
+        "objectName": "Wolf"
       },
       {
         "objectName": "Void"
@@ -1808,6 +2308,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1843,7 +2344,7 @@
             "value": "FlippableCapability::FlippableBehavior::FlippedX"
           },
           "parameters": [
-            "Mushroom",
+            "Wolf",
             "Flippable"
           ]
         }
@@ -1854,7 +2355,7 @@
             "value": "PlatformBehavior::SimulateLeftKey"
           },
           "parameters": [
-            "Mushroom",
+            "Wolf",
             "PlatformerObject"
           ]
         }
@@ -1869,8 +2370,8 @@
               },
               "parameters": [
                 "MovingGrassBlock",
-                "Mushroom.PointX(\"Turner\")",
-                "Mushroom.PointY(\"Turner\")"
+                "Wolf.PointX(\"Turner\")",
+                "Wolf.PointY(\"Turner\")"
               ]
             }
           ],
@@ -1880,7 +2381,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "Mushroom",
+                "Wolf",
                 "Flippable",
                 ""
               ]
@@ -1898,7 +2399,7 @@
             "value": "FlippableCapability::FlippableBehavior::FlippedX"
           },
           "parameters": [
-            "Mushroom",
+            "Wolf",
             "Flippable"
           ]
         }
@@ -1909,7 +2410,7 @@
             "value": "PlatformBehavior::SimulateRightKey"
           },
           "parameters": [
-            "Mushroom",
+            "Wolf",
             "PlatformerObject"
           ]
         }
@@ -1924,8 +2425,8 @@
               },
               "parameters": [
                 "MovingGrassBlock",
-                "Mushroom.PointX(\"Turner\")",
-                "Mushroom.PointY(\"Turner\")"
+                "Wolf.PointX(\"Turner\")",
+                "Wolf.PointY(\"Turner\")"
               ]
             }
           ],
@@ -1935,7 +2436,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "Mushroom",
+                "Wolf",
                 "Flippable",
                 "yes"
               ]
@@ -1959,7 +2460,7 @@
               },
               "parameters": [
                 "Player",
-                "Mushroom",
+                "Wolf",
                 "",
                 "",
                 ""
@@ -1979,6 +2480,25 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Wolf",
+            "Animation",
+            "=",
+            "\"Attack\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.2"
+          ]
+        },
         {
           "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
