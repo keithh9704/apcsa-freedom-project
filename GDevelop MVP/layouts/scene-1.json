@@ -303,14 +303,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 80,
+      "height": 48,
       "keepRatio": true,
       "layer": "",
       "name": "GrassBlock",
       "persistentUuid": "aa8207c6-80b3-4254-9fca-5f070abeb26c",
       "width": 80,
-      "x": 2144,
-      "y": 64,
+      "x": 2112,
+      "y": 96,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -320,14 +320,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 80,
+      "height": 48,
       "keepRatio": true,
       "layer": "",
       "name": "GrassBlock",
       "persistentUuid": "ef1e84de-710c-465c-9748-aadb0f30baaf",
       "width": 80,
-      "x": 2144,
-      "y": -160,
+      "x": 2112,
+      "y": -144,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -343,7 +343,7 @@
       "name": "YES",
       "persistentUuid": "5b5a73ac-ee91-4429-8657-16b1a8cfaefc",
       "width": 64,
-      "x": 2064,
+      "x": 2032,
       "y": -144,
       "zOrder": 20,
       "numberProperties": [],
@@ -359,9 +359,9 @@
       "layer": "",
       "name": "NO",
       "persistentUuid": "187b2946-f8d6-462c-b844-1af318e95955",
-      "width": 38,
-      "x": 2080,
-      "y": 96,
+      "width": 48,
+      "x": 2032,
+      "y": 48,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -2302,35 +2302,6 @@
             "Player.X()+1000",
             "Void.Y()",
             "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Star",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Star",
             ""
           ]
         }

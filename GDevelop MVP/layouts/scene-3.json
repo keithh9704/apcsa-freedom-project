@@ -1725,34 +1725,6 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Star",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Star",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "FlippableCapability::FlippableBehavior::FlippedX"
           },
           "parameters": [
